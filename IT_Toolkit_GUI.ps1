@@ -9,7 +9,7 @@
 # Fill this in once you host the script (see hosting notes at the end of this
 # file). Needed so self-elevation can relaunch itself correctly when the
 # script was run via "irm <url> | iex" instead of from a saved .ps1 file.
-$script:RemoteUrl = ""   # <- https://raw.githubusercontent.com/sumitguptaslg2004-sudo/IT_TOOLKIT/refs/heads/main/IT_Toolkit_GUI.ps1
+$script:RemoteUrl = "https://raw.githubusercontent.com/sumitguptaslg2004-sudo/IT_TOOLKIT/refs/heads/main/IT_Toolkit_GUI.ps1"
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 Add-Type -AssemblyName Microsoft.VisualBasic
